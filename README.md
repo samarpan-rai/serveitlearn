@@ -2,7 +2,7 @@
 
 This project is inspired by  [Vincent D. Warmerdam's brain fart](https://twitter.com/fishnets88/status/1279731745483624453). 
 
-You may train the most awesome model in the world but if you can't deploy it then people can't enjoy your work. Deployment in ML has always been an issue that gets least discussed during classes. It is assumed that you can just do this without any formal training. In my experience, it not as easy to deploy models that's why I thought it woulbe be great to create `serveitlearn`. It creates an extremely thin layer around FastAPI library which allows you to create an end point super fast.  More specifically, It provides `/predict` end point. You can only send POST request with JSON body. The following code sample will make it clear. 
+You may train the most awesome model in the world but if you can't deploy it then people can't enjoy your work. In my experience, deployment is a topic that gets least discussed during courses. It is assumed that you can just do this without any formal training. In my experience, it not as easy to deploy models that's why I thought it woulbe be great to create `serveitlearn`. It creates an extremely thin layer around FastAPI library which allows you to create an end point super fast.  More specifically, It provides `/predict` end point. You can only send POST request with JSON body. The following code sample will make it clear. 
 
 ### Code sample : 
 
