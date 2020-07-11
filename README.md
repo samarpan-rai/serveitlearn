@@ -56,9 +56,6 @@ $ curl --location --request POST 'localhost:8000/predict' \
 --data-raw '{"plant_dimensions" : [[5.1,3.5,1.4,0.2],[5.1,3.5,1.4,0.2]]}'
 ```
 
- Visit [http://127.0.0.1:8000](http://127.0.0.1:8000) to 
-
-
 ## Limitations
 
 1. No authentication or security measures implemented. 
