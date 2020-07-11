@@ -1,5 +1,6 @@
-
+models/
 *.pickle
+*.pkl
 *.joblib
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,linux,windows
