@@ -1,4 +1,4 @@
-from decorator import app, predict, initalize
+from serveitlearn.decorator import app, initalize, predict
 import pickle
 import spacy
 from joblib import  load
