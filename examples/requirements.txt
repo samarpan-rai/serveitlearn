@@ -1,3 +1,5 @@
+serveitlearn
+uvicorn
 pandas
 numpy
 sklearn
