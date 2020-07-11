@@ -1,4 +1,7 @@
 
+*.pickle
+*.joblib
+
 # Created by https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,linux,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,jupyternotebooks,linux,windows
 

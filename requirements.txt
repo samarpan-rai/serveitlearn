@@ -1,3 +1,4 @@
-fastapi
+fastapi==0.59.0
 requests
-starlette
+uvicorn==0.11.5
+

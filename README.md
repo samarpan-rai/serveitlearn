@@ -8,18 +8,36 @@ You may train the most awesome model in the world but if you can't deploy it the
 I prefer conda but you do you. You need at least python 3.7
 
 1. Create environment (if you don't already have one)
-    `conda create -n serve-it-learn_env python=3.7`
+    `conda create -n serve_scikit_model python=3.7`
 
 2. Activate it
-    `conda activate serve-it-learn_env`
+    `conda activate serve_scikit_model`
 
 3. Install it
-``pip install -i https://test.pypi.org/simple/ serveitlearn``
+    `pip install serveitlearn`
 
 
 
 ## Getting started
 
+This is a dummy example. You need to add your own code to load the model and perform predictions. 
+
+
+```py
+
+from serveitlearn.decorator import app, predict, initalize
+
+# Declare function that initalizes the model and any other data sources
+@initalize
+def my_initalization():
+    pass
+
+# Declare function that will make the prediction based on the query
+
+@predict
+def my_prediction(query_dict):
+    pass
+```
 
 
 

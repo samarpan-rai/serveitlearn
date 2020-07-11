@@ -30,8 +30,8 @@ setup(
     name="serveitlearn",
     package_dir={"": "src"},
     packages=find_packages(include=["src/serveitlearn", "src/serveitlearn.*"]),
-    setup_requires=[],
+    setup_requires=[INSTALL_REQUIRES],
     url="https://github.com/samarpan-rai/serveitlearn",
-    version="0.0.3",
+    version="0.0.6",
     zip_safe=False,
 )
