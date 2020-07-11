@@ -40,7 +40,7 @@ def my_initalization():
 # 
 # ```
 #     {
-#         'plant_dimensions' : [1,2,3,4]
+#         'plant_dimensions' : [[1,2,3,4],[5,6,7,8]]
 #     }
 # ```
 

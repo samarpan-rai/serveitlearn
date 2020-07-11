@@ -39,6 +39,6 @@ def my_prediction(query_dict):
     pass
 ```
 
-If you want to see a full example, then you can try running [this]()
+If you want to see a full example, then you can try running [this](https://github.com/samarpan-rai/serveitlearn/blob/master/examples/svc_iris_example.py). Please note that it has few requirements. You can install it by running `pip install -r https://github.com/samarpan-rai/serveitlearn/blob/master/examples/requirements.txt`
 
 
