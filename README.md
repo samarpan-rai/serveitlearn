@@ -2,10 +2,9 @@
 
 This project is inspired by  [Vincent D. Warmerdam's brain fart](https://twitter.com/fishnets88/status/1279731745483624453). 
 
-You may train the most awesome model in the world but if you can't deploy it then people can't enjoy your work. Deoployment in ML has always been an issue that almost gets discussed during classes. It is assumed that you can just do this without any formal training. In my experience, I found it not as easy to deploy my models with much flexibility. That's why I decided to create `serveitlearn`. It creates an extremely thin layer around FastAPI library which allows you a lot of flexibility. 
+You may train the most awesome model in the world but if you can't deploy it then people can't enjoy your work. Deployment in ML has always been an issue that gets least discussed during classes. It is assumed that you can just do this without any formal training. In my experience, it not as easy to deploy models that's why I thought it woulbe be great to create `serveitlearn`. It creates an extremely thin layer around FastAPI library which allows you to create an end point super fast.  More specifically, It provides `/predict` end point. You can only send POST request with JSON body. The following code sample will make it clear. 
 
-It basically provides `/predict` end point. You can only send POST request with JSON body. 
-
+### Code sample : 
 
 ```py
 
@@ -25,26 +24,22 @@ def my_prediction(query_dict):
 
 ## Installation
 
-I prefer conda but you do you. You need at least python 3.7
+You need at least python 3.7. I will use conda for this 
 
 1. Create environment (if you don't already have one)
-    `conda create -n serve_scikit_model python=3.7`
+    `conda create -n serveitlearn_env python=3.7`
 
 2. Activate it
-    `conda activate serve_scikit_model`
+    `conda activate serveitlearn_env`
 
 3. Install it
     `pip install serveitlearn`
 
 
-
-## Getting started
-
-
-If you want to see a [full example](https://github.com/samarpan-rai/serveitlearn/blob/master/examples/svc_iris_example.py), then you have to take few more after installation because it requires loading scikit-learn model and I didn't release a pickle or joblib due to [potiential security reasons](https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations). 
+## Hello World!
 
 
-The example, loads iris dataset, trains a simple SVC model and deploys it using `serveitlearn.
+The example, loads iris dataset, trains a simple SVC model and deploys it using `serveitlearn`.
 
 
 ```
